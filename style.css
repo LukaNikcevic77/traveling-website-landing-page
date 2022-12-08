@@ -1,0 +1,219 @@
+body {
+    padding: 0px;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header-container{
+    min-width: 100%;
+    min-height: 2rem;
+    display: flex;
+    border: 2px red solid;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    background-color: #1f2937;
+}
+.welcome-body{
+    min-width: 100%;
+    min-height: 35rem;
+    display: flex;
+    border: 2px red solid;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: #1f2937;
+}
+#welcome-section{
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #1f2937;
+    
+    
+}
+#offer-section{
+    min-width: 100%;
+    min-height: 100%;
+    background-color: white;
+}
+#qoute-section{
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #E5E7EB;
+    border: 2 red solid;
+
+}
+#signup-section{
+    margin: -2rem;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    border: 2px red solid;
+}
+
+.item{
+    border: 2px solid green;
+    flex: .1 0 5px;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+    
+}
+.body-item{
+    border: 2px solid green;
+    min-height: 280px;
+    flex: .3 0 28rem;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+    padding-top: 0;
+}
+.body-text-bold{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+}
+.body-text-medium{
+    margin-top: 0;
+    font-style: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+}
+.body-button{
+    min-width: 105px;
+    min-height: 35px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    flex: 1 0.1 auto;
+    font-style: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.body-item.right{
+    background-color: gray;
+
+}
+.offer-title{
+    text-align: center;
+    font-style: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.offer-container{
+    padding: 0;
+    min-width: 100%;
+    min-height: 25rem;
+    display: flex;
+    border: 2px red solid;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    background-color: white;
+}
+.image-container{
+    margin-top: 5rem;
+    border-radius: 15%;
+    border: 2px solid green;
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    flex: 0 0 28rem;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+    padding-top: 0;
+}
+.text-under-image{
+    inline-size: 150px;
+    overflow: break-word;
+    margin-bottom: 5rem;
+}
+.qoute-msg{
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding-top: 5rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    inline-size: 800px;
+    overflow: break-word;
+}
+.author{
+    margin-left: 60%;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 5rem;
+}
+.call-to-action{
+    margin: 5rem auto;
+    
+    min-width: 800px;
+    max-width: 950px;
+    min-height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 4rem;
+    border-radius: 5px;
+    
+    
+}
+.text-of{
+    min-width: 50%;
+    max-width: 65%;
+    min-height: 70%;
+    margin-bottom: 2rem;
+    
+    flex: 1 0.5 500px;
+    
+}
+.bold{
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    
+}
+.light{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.call-button{
+    padding: 0.5rem 2rem;
+
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 0.5px #E5E7EB solid;
+    border-radius: 5px;
+}
+.footer{
+    min-width: 100%;
+    min-height: 3rem;
+    max-height: 3rem;
+    background-color: #1f2937;
+    text-align: center;
+    padding-top: 1.8rem;
+    color: white;
+}
+
+#logo{
+    font-weight: 900;
+    font-size: 24px;
+    flex: .55 0 5px;
+
+}
