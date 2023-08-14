@@ -5,28 +5,34 @@
       <!-- 2TheWorld is the name of fictional company so if anyone went to search for it on the web
       it's name in the title would help it pop faster rather then something generic as traveling website,
       it is also useful for screen readers for people who are disabled-->
-    <title>2TheWorld</title>
+    <title>Travel Agency</title>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description"
+    content="Ever wanted to visit Montenegro? Country filled with beautifull nature and welcoming people!">
+    <link href="https://travelagency.com/" rel=
+ "canonical" />
 </head>
 <body>
-    <!-- Id's of element represent different information they will have, id's are used instead of classes
-    because of their dual use(they can be used as selector inside of css file and can be used for linking
-    in header with #)-->
+   
     <section id="welcome-section">
         <div class="header-container">
             <!--All items should share same properties besides one but since they all are styled within same flex container 
             I gave them all same item class and then to seperatly select logo I gave it id of logo. It could
             have been done with 2 classes but its easier to distinguish # from . visually so I did it that way because it
             was possible.(There is nothing else for that id to be used for)-->
-            <p class="item" id="logo">2TheWorld</p>
-            <p class="item"><a href="#offer-section">Offers</a></p>
-            <p class="item"><a href="#qoute-section">Wise words</a></p>
-            <p class="item"><a href="#signup-section">Newsletter</a></p>
+            
+            <img src="./images/tourism agency (1).png" id="logo" />
+            <span>
+
+                <p class="item"><a href="#offer-section">Offers</a></p>
+                <p class="item"><a href="#qoute-section">Wise words</a></p>
+                <p class="item"><a href="#signup-section">Newsletter</a></p>
+            </span>
         </div>
         <div class="welcome-body">
             <!-- Both body items that are styled with flex have same class all other classes are self explanitory. ###Maybe I could
@@ -84,7 +90,9 @@
             </div>
             <button class="call-button">Sign up</button>
         </div>
-        <div class="footer">Copyright @ Luka Nikcevic</div>
     </section>
+    <footer class="footer">
+        Copyright @ Anja Djurdjevac
+    </footer>
 </body>
 </html>
